@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.navbar {
+  background: #2563eb;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.task-card {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
